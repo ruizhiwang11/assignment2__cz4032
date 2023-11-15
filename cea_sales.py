@@ -15,7 +15,7 @@ te = TransactionEncoder()
 
 # Parameters
 chunk_size = 600000  # Adjust chunk size to your system's memory limit
-min_support = 0.01  # Adjust the minimum support value as needed
+min_support = 0.08  # Adjust the minimum support value as needed
 total_transactions = 0  # Keep track of total number of transactions
 all_items_set = set()  # This will hold all unique items
 selected_columns = ['salesperson_name', 'property_type', 'transaction_type', "represented", "town"]  # Example columns from your dataset
